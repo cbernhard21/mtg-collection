@@ -17,11 +17,16 @@
     text-align: right;
   }
   
-  a {
+  a:link,
+  a:visited {
     text-decoration: none;
     display: inline-block;
     font-size: 1.6rem;
+    color: blue;
   }
+
+  
+
   
   ul {
     display: flex;
