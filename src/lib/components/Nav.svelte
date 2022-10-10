@@ -25,13 +25,14 @@
     color: blue;
   }
 
-  
-
-  
   ul {
     display: flex;
     flex-direction: column;
     gap: 3rem;
+  }
+
+  li {
+    border-bottom: 1px solid black;
   }
 
 </style>
