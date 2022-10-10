@@ -3,6 +3,8 @@
 /* VARIABLES */
 :root {
   --title-font: 'MedievalSharp', cursive;
+  --bg-page: #e4e4e4;
+  --bg-nav: #c0c0c0;
 }
 
 /* RESETS */
@@ -15,7 +17,7 @@
 
 html {
   font-size: 62.5%;
-  background-color: gray;
+  background-color: var(--bg-page);
 }
 
 h1,
