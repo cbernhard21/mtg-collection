@@ -56,6 +56,7 @@
     flex-direction: column;
     gap: 2rem;
     width: 500px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
   }
 
   .form-group {
