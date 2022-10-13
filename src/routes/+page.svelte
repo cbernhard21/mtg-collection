@@ -33,6 +33,7 @@
     /* background-image: url(images/bg-login-3.jpg); */
     /* background-image: url(images/bg-login-4.png); */
     /* background-image: url(images/bg-login-5.jpg); */
+    /* background-image: url(images/bg-login-6.jpg); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -43,10 +44,12 @@
 
   h1 {
     font-size: 3.6rem;
+    color: var(--black);
+    text-align: center;
   }
 
   .login-form {
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(10px);
     padding: 4rem;
     border-radius: 10px;
     display: flex;
@@ -64,11 +67,14 @@
     font-size: 1.8rem;
     color: var(--white);
     font-weight: 300;
+    margin-bottom: .5rem;
   }
 
   input {
-    padding: .5rem .25rem;
-    font-size: 1.6rem;;
+    padding: .75rem;
+    font-size: 1.6rem;
+    border-radius: 2px;
+    border: none;
   }
 
   .btn.login {
