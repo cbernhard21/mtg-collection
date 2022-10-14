@@ -1,5 +1,5 @@
 
-<h1>My MTG Collection</h1>
+<h1>Legendary MTG Collection</h1>
 
 <style>
 

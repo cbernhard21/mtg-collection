@@ -1,6 +1,6 @@
 <div class="nav-container">
   <figure>
-    <img src="images/logos/black-logo.png" alt="Green Logo">
+    <img src="images/logos/mtg-logo.png" alt="Green Logo">
   </figure>
   <nav class="main-nav">
     <ul class="nav-list">
@@ -12,9 +12,6 @@
     </ul>
   </nav>
 </div>
-
-
-
 
 
 <style>
@@ -30,7 +27,6 @@
   }
 
   nav {
-    height: 100%;
     padding: 2rem 1rem 0 2rem;
     text-align: right;
   }
@@ -40,7 +36,8 @@
     text-decoration: none;
     display: inline-block;
     font-size: 1.6rem;
-    color: blue;
+    color: var(--white);
+    transition: all .2s ease-in-out;
   }
 
   ul {
@@ -50,7 +47,14 @@
   }
 
   li {
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid transparent;
+    transition: all .2s ease-in-out;
+    padding-left: 1rem;
+    width: 100%;
+  }
+
+  li:hover {
+    border-bottom: 2px solid black;
   }
 
 </style>

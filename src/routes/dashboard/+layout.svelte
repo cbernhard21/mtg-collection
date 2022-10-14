@@ -5,6 +5,10 @@
   import Aside from '$lib/components/Aside.svelte'
 </script>
 
+<svelte:head>
+  <title>MTG Collection</title>
+</svelte:head>
+
 <div class="page-grid">
   <div class="header">
     <Header />
@@ -14,7 +18,10 @@
     <Nav />
   </div>
   
-  <slot></slot>
+  <div class="main-container">
+    <slot></slot>
+  </div>
+  
   
   <div class="aside">
     <Aside />
@@ -36,12 +43,19 @@
   }
 
   .nav {
-    border: 1px solid orange;
-    grid-row: 1/-1;
+    grid-row: 1/3;
+  }
+
+  .main-container {
+    grid-row: 2/-1;
+    grid-column: 2/3;
+    border: 1px solid tomato;
   }
 
   .aside {
     border: 1px solid blue;
+    grid-row: 2/3;
+    grid-column: 3/4;
   }
 
 </style>

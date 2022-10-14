@@ -7,6 +7,11 @@
 
 </script>
 
+<svelte:head>
+  <title>MTG Collection</title>
+</svelte:head>
+
+
 <main>
 
   <form class="login-form">
