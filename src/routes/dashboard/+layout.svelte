@@ -30,13 +30,14 @@
   }
 
   .header {
-    grid-column: 1/-1;
+    grid-column: 2/-1;
     align-self: baseline;
     border: 1px solid red;
   }
 
   .nav {
     border: 1px solid orange;
+    grid-row: 1/-1;
   }
 
   .aside {
